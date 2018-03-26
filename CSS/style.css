@@ -1,0 +1,295 @@
+/* -------------HEADER------------- */
+.whiteTop {
+    background-color: #ffffff;
+    width: 100%;
+    margin-top: -7px;
+    height:75px;
+    display: flex;
+    margin-bottom: 50px;
+    border-bottom: 2px solid #cccccc;
+}
+.tlbar {
+    background-color: #ffffff;
+    width: 960px;
+    margin: auto;
+    margin-bottom: 50px;
+  
+}
+#nameHdr{
+    background-color: #4aaaa5;
+    color: #ffffff; 
+    float: left;
+    height: 75px;
+}
+.navbar{
+    float: right;
+}
+.navBar ul {
+    text-align: right;
+    
+}
+
+.navList li {
+    vertical-align: middle;
+    display: inline-block;
+    text-align: right;
+}
+li a {
+    color: #cccccc;
+    text-decoration: none;
+    margin: 0px 3px;
+  
+}
+
+/*-----------BULK-PAGE------------*/
+ #profPic {
+    float: left;
+    padding: 10px;
+    max-width: 250px;
+    max-height: 250px;
+}
+
+.pageBulk, #pageBulkCon {
+    width: 900px;
+    margin: auto;
+}
+.pageBulk {
+    background-color: white;
+    padding: 0px 30px 0px 30px;
+    border: 2px solid #dddddd;
+}
+#pageBulkCon {
+    background-color: white;
+}
+
+div .portBody {
+    background-color: #ffffff;
+    width: 900px;
+    height: 900px;
+}
+#formStruct, #altLinks {
+    background-color: #ffffff;
+    padding: 10px;
+    border: 2px solid #dddddd;
+}
+#formStruct {
+    float: left;
+    color: #cccccc;
+    width: 60%;
+    margin-right: 50px;
+    
+}
+#altLinks {
+    color: #4aaaa5;
+    width: 25%;
+    float: right;
+    padding: 30px;
+}
+#altLinks h1, h2 {
+    border-bottom: 2px solid #cccccc;
+}
+#formStruct h1 {
+    border-bottom: 2px solid #cccccc;
+}
+.formBody {
+    width: 921px;
+    margin: 0px 0px 0px -31px;
+}
+img {
+    padding-left: 40px;
+    padding-bottom: 40px;
+    width: 35%;
+    float: left;
+}
+a img {
+    padding-left: 0px;
+    padding-bottom: 0px;
+    width: 33%;
+    float: left;
+}
+.icon {
+    padding: 5px;
+    width: 64px;
+    height: 64px;
+    display: inline;
+}
+.line {
+    display: block;
+    color: #4aaaa5;
+    border-bottom: 2px solid #cccccc;
+}
+#nameInput, #emailInput, #messageInput {
+    width: 500px;
+}
+#messageInput {
+    height: 200px;
+}
+button {
+    color: #ffffff;
+    background-color: #4aaaa5;
+    padding-top: 10px;
+    width: 110px;
+    height: 40px;
+}
+/*------------FOOTER--------------*/
+.footsie {
+    border-top: 2px solid #4aaaa5;
+    left:0px;
+    position:fixed;
+    height:50px;
+    bottom:0px;
+    background-color: #666666;
+    width:100%;
+}
+
+/*-------------MULTI-------------*/
+.containerMaster {
+
+}
+p
+ {
+    padding: 10px;
+}
+body {
+    font-family: 'Arial', 'Helvetica Neue', 'Helvetica', 'sans-serif';
+    background-image: url("../Images/circlesLight.png");
+    color: #777777;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Georgia', 'Times', 'Times New Roman', 'serif';    
+}
+@media screen and (max-width:980px){
+    .pageBulk, #pageBulkCon {
+        width: 75%;
+        margin: auto;
+    }
+}
+@media screen and (max-width:788px){
+    .pageBulk, #pageBulkCon {
+        width: 75%;
+        margin: auto;
+    }
+ 
+    #nameHdr{
+        background-color: #4aaaa5;
+        color: #ffffff; 
+        float: left;
+        height: 75px;
+        display: block;
+    }
+/*           Contact             */
+    .formBody {
+        width: 100%;
+        display: inline-block;
+        margin: 0px 0px 0px 0px;
+}
+
+#formStruct {
+    float: left;
+    color: #cccccc;
+    width: 100%;
+    /* margin-right: 50px; */
+}
+#nameInput, #emailInput, #messageInput {
+    width: 100%;
+}
+#altLinks {
+    color: #4aaaa5;
+    width: 100%;
+    float: left;
+    padding: 0px;
+}
+div .portBody {
+    background-color: #ffffff;
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.img-shift {
+    padding-left: 10px;
+    padding-bottom: 10px;
+    width: 90%;
+    float: left;
+}
+
+
+
+@media screen and (max-width:640px){
+    .pageBulk, #pageBulkCon {
+        width: 75%;
+        margin: auto;
+    }
+    /* .tlbar {
+
+    } */
+    h1 {
+        text-align: center;
+    }
+    #nameHdr{
+        background-color: #4aaaa5;        
+        color: #ffffff; 
+        display: inline-block;
+        height: 100%;
+        width: 100%;
+        
+    }
+    .whiteTop {
+        background-color: #4aaaa5;
+        width: 100%;
+        margin-top: -7px;
+        height:75px;
+        margin-bottom: 50px;
+        border-bottom: 2px solid #cccccc;
+    }
+    .navbar{
+     margin: 0 auto;
+     padding: 0 30% 0 0;
+    }
+    .navBar ul {
+        text-align: center
+        
+    }
+    
+    .navList li {
+        vertical-align: middle;
+        /* display: inline-block; */
+        text-align: center; 
+    }
+    li a {
+        color: #cccccc;
+        text-decoration: none;
+        margin: 0 8px;
+      
+    }
+    /* li a {
+        color: #cccccc;
+        text-decoration: none;
+        margin: 0px 3px;
+    }     */
+}
+
+
+/*-----COMMENTS-SECTION-JUST-FOR-ME----*/ 
+/*
+-Divs are block level by default- meaning they take up an entire row
+(changing the width won't affect this...)
+
+-Margin:0 auto; only centers elements on the horizontal plane
+-text-align: center; to center text inside a <div>
+
+-when you float an element- it will naturally collapse as opposed
+to a block element 
+-when you float an image- its container collapses 
+
+
++++Teal color (used for headings and backgrounds): `#4aaaa5`
++++* Regular font color (used for paragraphs and all text besides the headings): `#777777`
++++* Main header background color: `#ffffff`
+   * Main header border color: `#cccccc`
++++* Footer background color: `#666666`
++++* Main content background color: `#ffffff`
++++* Main content border color: `#dddddd`
+
++++For heading fonts use `font-family: 'Georgia', Times, Times New Roman, serif;`.
++++* For all other fonts use `'Arial', 'Helvetica Neue', Helvetica, sans-serif;`.
+*/
